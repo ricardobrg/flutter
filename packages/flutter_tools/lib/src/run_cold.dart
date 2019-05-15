@@ -128,7 +128,7 @@ class ColdRunner extends ResidentRunner {
     try {
       await connectToServiceProtocol();
     } catch (error) {
-      printError('Error connecting to the service protocol: $error');
+      printError('Error 1 connecting to the service protocol: $error');
       return 2;
     }
     for (FlutterDevice device in flutterDevices) {
